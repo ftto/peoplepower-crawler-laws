@@ -1,0 +1,33 @@
+{
+  "name": "peoplepower-crawler-laws",
+  "version": "0.1.0",
+  "description": "열려라국회 법안 목록 조회 크롤러",
+  "main": "./index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftto/peoplepower-cralwer-laws.git"
+  },
+  "keywords": [
+    "열려라국회",
+    "crawler",
+    "module",
+    "node",
+    "javascript"
+  ],
+  "author": "Hoony Chang <the6thm0nth@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftto/peoplepower-crawler-laws/issues"
+  },
+  "homepage": "https://github.com/ftto/peoplepower-cralwer-laws#readme",
+  "dependencies": {
+    "crawler": "^1.2.0",
+    "esm": "^3.0.77",
+    "prettyjson": "^1.2.1"
+  }
+}
